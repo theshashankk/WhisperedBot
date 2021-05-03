@@ -17,7 +17,7 @@ module.exports = (bot, db) => {
                     inline_keyboard: [
                         [
                             {
-                                text: `Show Message 🔐`,
+                                text: `Show Me Message 🔐`,
                                 callback_data: JSON.stringify([
                                     sender,
                                     receiver,
